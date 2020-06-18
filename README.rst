@@ -7,7 +7,7 @@ Molecule Alicloud Plugin
    :alt: PyPI Package
 
 .. image:: https://zuul-ci.org/gated.svg
-   :target: https://dashboard.zuul.ansible.com/t/ansible/builds?project=ansible-community/molecule-gce
+   :target: https://dashboard.zuul.ansible.com/t/ansible/builds?project=ansible-community/molecule-alicloud
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
    :target: https://github.com/python/black
@@ -17,15 +17,15 @@ Molecule Alicloud Plugin
    :target: https://docs.ansible.com/ansible/latest/community/code_of_conduct.html
    :alt: Ansible Code of Conduct
 
-.. image:: https://img.shields.io/badge/Mailing%20lists-Ansible-orange.svg
-   :target: https://docs.ansible.com/ansible/latest/community/communication.html#mailing-list-information
-   :alt: Ansible mailing lists
+.. image:: https://img.shields.io/badge/Discussions-silver.svg
+   :target: https://github.com/ansible-community/molecule/discussions
+   :alt: Discussions
 
 .. image:: https://img.shields.io/badge/license-MIT-brightgreen.svg
    :target: LICENSE
    :alt: Repository License
 
-Molecule Alicloud is designed to allow use Alibaba Cloud for
+Molecule AliCloud is designed to allow use Alibaba Cloud for
 provisioning test resources.
 
 Please note that this driver is currently in its early stage of development.
@@ -36,14 +36,14 @@ Get Involved
 ============
 
 * Join us in the ``#ansible-molecule`` channel on `Freenode`_.
-* Join the discussion in `molecule-users Forum`_.
+* Join Discussions_.
 * Join the community working group by checking the `wiki`_.
 * Want to know about releases, subscribe to `ansible-announce list`_.
 * For the full list of Ansible email Lists, IRC channels see the
   `communication page`_.
 
 .. _`Freenode`: https://freenode.net
-.. _`molecule-users Forum`: https://groups.google.com/forum/#!forum/molecule-users
+.. _`Discussions`: https://github.com/ansible-community/molecule/discussions
 .. _`wiki`: https://github.com/ansible/community/wiki/Molecule
 .. _`ansible-announce list`: https://groups.google.com/group/ansible-announce
 .. _`communication page`: https://docs.ansible.com/ansible/latest/community/communication.html

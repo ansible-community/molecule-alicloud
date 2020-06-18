@@ -7,7 +7,7 @@ from molecule import util
 LOG = logger.get_logger(__name__)
 
 
-class ECS(Driver):
+class AliCloudECS(Driver):
     """
     The class responsible for managing `ECS`_ instances.  `ECS`_
     is `not` the default driver used in Molecule.
@@ -47,8 +47,8 @@ class ECS(Driver):
     """  # noqa
 
     def __init__(self, config=None):
-        super(ECS, self).__init__(config)
-        self._name = "ecs"
+        super(AliCloudECS, self).__init__(config)
+        self._name = "alicloud"
 
     @property
     def name(self):
