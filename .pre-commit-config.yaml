@@ -18,7 +18,7 @@ repos:
     hooks:
       - id: doc8
   - repo: https://github.com/psf/black
-    rev: 22.6.0
+    rev: 22.8.0
     hooks:
       - id: black
         language_version: python3
@@ -60,7 +60,7 @@ repos:
         #       use jinja templating, this will often fail and the syntax
         #       error will be discovered in execution anyway)
   - repo: https://github.com/ansible/ansible-lint.git
-    rev: v6.5.0
+    rev: v6.5.2
     hooks:
       - id: ansible-lint
         always_run: true
